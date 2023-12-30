@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b80c7ca-8dac-4487-b52a-7acdb96967a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/TodoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/test/java/com/shoib/todo/TodoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/classes/com/shoib/todo/TodoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/todo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/target/todo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todoapp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/model/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +34,9 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2aFHTdwpnKYSCebkOdahjAzmr3f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

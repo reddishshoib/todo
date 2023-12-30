@@ -53,4 +53,28 @@ public class TaskController {
         }
     }
 
+    @PutMapping("/task/{id}")
+    public ResponseEntity<Task> updateById(@PathVariable Long id, @RequestBody Task updatTask){
+        try {
+            Task updatedTask = taskService.updateTask(id, updatTask);
+            if (updatedTask != null) {
+                return new ResponseEntity<>(updatedTask, HttpStatus.OK);
+            } else {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+        } catch (Exception e) {
+            return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @DeleteMapping("/task/{id}")
+    public boolean deleteTaskById(@PathVariable Long id){
+        try {
+            taskService.deleteTask(id);
+            return  true;
+        }catch (Exception e){
+            return  false;
+        }
+    }
+
 }

@@ -1,0 +1,5 @@
+com\shoib\todo\model\Task.class
+com\shoib\todo\controller\TaskController.class
+com\shoib\todo\TodoApplication.class
+com\shoib\todo\repository\TaskRepository.class
+com\shoib\todo\service\TaskService.class

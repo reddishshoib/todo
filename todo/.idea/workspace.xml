@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b80c7ca-8dac-4487-b52a-7acdb96967a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/service/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/main/java/com/shoib/todo/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/todo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.TodoApplication.executor": "Run",
     "Maven.todo [clean].executor": "Run",
     "Maven.todo [install].executor": "Run",
@@ -54,6 +60,11 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\todo\todo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TodoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shoib.todo.TodoApplication" />

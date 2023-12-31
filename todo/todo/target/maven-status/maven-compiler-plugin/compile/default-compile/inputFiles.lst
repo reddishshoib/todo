@@ -2,4 +2,5 @@ D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\repository\TaskRepositor
 D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\controller\TaskController.java
 D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\service\TaskService.java
 D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\TodoApplication.java
+D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\config\CorsConfig.java
 D:\projects\todo\todo\todo\src\main\java\com\shoib\todo\model\Task.java

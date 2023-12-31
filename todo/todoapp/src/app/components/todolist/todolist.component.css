@@ -1,10 +1,30 @@
-/* todolist.component.css */
-.inline-list {
-  list-style: none;
-  padding: 0;
-  margin: 0; /* Display items inline */
+.lists{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 3px;
 }
 
-.inline-list li {/* Display list items inline */
-  margin-right: 10px; /* Adjust spacing between items */
+.right-side-function-buttons{
+  float: right;
+  justify-content: flex-end;
+}
+.shadowed-buttons{
+  border-radius: 2px;
+  margin: 4px;
+  border-color: rgba(33, 155, 229, 0.88);
+  padding: 15px 30px;
+
+  box-shadow: 1px 2px 10px rgba(33, 155, 229, 0.51);
+  background-color: rgba(33, 155, 229, 0.51);
+}
+
+.add-btn{
+  position: absolute;
+  padding: 15px 30px;
+  font-size: 18px;
+  bottom: 30px;
+  right: 30px;
 }

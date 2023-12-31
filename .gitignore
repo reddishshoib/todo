@@ -4,8 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-#/todo/src/main/resources/application.properties
-
+todo/todo/src/main/resources/application.properties
+'todo/todoapp/node_modules/
 ### STS ###
 .apt_generated
 .classpath
@@ -14,7 +14,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+node_modules/
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -34,4 +34,5 @@ build/
 ### VS Code ###
 .vscode/
 !**/todo/.idea/**
-#!**/application.properties
+**/application.properties
+application.properties
